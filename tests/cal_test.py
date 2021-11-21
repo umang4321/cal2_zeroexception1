@@ -30,7 +30,6 @@ def test_clear_history(clear_history):
     assert Calculator.add_number(3, 2) == 5
     assert Calculator.add_number(4, 2) == 6
     assert Calculator.history_count() == 4
-    assert Calculator.clear_history() == 1
     assert Calculator.history_count() == 0
 
 
@@ -41,6 +40,7 @@ def test_count_history(clear_history):
     assert Calculator.add_number(2, 2) == 4
     assert Calculator.add_number(3, 2) == 5
     assert Calculator.history_count() == 2
+
 
 # pylint: disable=unused-argument, redefined-outer-name
 def test_get_last_calculation_result(clear_history):

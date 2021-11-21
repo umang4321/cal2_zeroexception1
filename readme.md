@@ -1,5 +1,5 @@
 # Calculator Project Setup
-[![Build Status](https://app.travis-ci.com/umang4321/cal2_zeroexception.svg?branch=calc_part3)](https://app.travis-ci.com/umang4321/cal2_zeroexception1)
+[![Build Status](https://app.travis-ci.com/umang4321/cal2_zeroexception1.svg?branch=calc_part3)](https://app.travis-ci.com/umang4321/cal2_zeroexception1)
 
 Run Pip Install
 pip install -r requirements.txt

@@ -4,7 +4,7 @@
 Run Pip Install
 pip install -r requirements.txt
 
-To run tests, Lint, and Coverage report use this command:
+To run the tests, Lint, and Coverage report use this command:
 
 pytest  --pylint --cov
 

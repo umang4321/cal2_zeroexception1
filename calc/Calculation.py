@@ -1,4 +1,6 @@
 """Logic for calculator"""
+
+
 class Calculation:
     # pylint: disable=too-few-public-methods
     """Calculation class"""
@@ -9,5 +11,5 @@ class Calculation:
 
     @classmethod
     def create(cls, value_a, value_b):
-        """Performing Calculation"""
+        """Creating calculation"""
         return cls(value_a, value_b)

@@ -1,6 +1,7 @@
 """Testing the Calculator"""
 import pprint
 import pytest
+
 from calculator.calculator import Calculator
 
 

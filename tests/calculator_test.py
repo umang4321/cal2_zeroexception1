@@ -33,5 +33,11 @@ def test_calculator_multiply():
 def test_calculator_divide():
     """ tests divide of two numbers"""
     calc = Calculator()
-    result  = calc.divide_numbers(1,0)
-    assert result == 0.5
+    result = calc.divide_numbers(1,0)
+    assert result == 0
+
+def test_calculator_divide1():
+    """ tests divide of two numbers"""
+    calc = Calculator()
+    result = calc.divide_numbers(6,3)
+    assert result == 2

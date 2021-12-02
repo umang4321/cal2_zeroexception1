@@ -1,26 +1,38 @@
 """ This is the increment function"""
+
+
 class Calculator:
-    """ This is the Calculator class"""
+    """ initialization 0 for result """
+
+    def __init__(self):
+        pass
 
     result = 0
+
     def get_result(self):
-        """ Get Result of Calculation"""
+        """ Defining result function"""
         return self.result
 
     def add_number(self, value_a):
-        """ adds number to result"""
+        """ Defining addition function"""
         self.result = self.result + value_a
         return self.result
+
     def subtract_number(self, value_a):
-        """ subtract number from result"""
+        """ Defining subtraction function"""
         self.result = self.result - value_a
         return self.result
+
     def multiply_numbers(self, value_a, value_b):
-        """ multiply two numbers and store the result"""
+        """ Defining division function"""
         self.result = value_a * value_b
         return self.result
 
     def divide_numbers(self, value_a, value_b):
-        """ multiply two numbers and store the result"""
-        self.result = value_a / value_b
-        return self.result
+        """ Defining division function"""
+        try:
+            self.result = (value_a / value_b)
+            # returns the result
+            return self.result
+        except ZeroDivisionError:
+            return 0

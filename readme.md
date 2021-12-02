@@ -15,4 +15,4 @@ setup.py is a config file for pytest
 
 Youtube Link - https://youtu.be/tO8jQb3z1ac
 
-![](../../Desktop/Calculator Project.png)
+<img width="1417" alt="Calculator Project" src="https://user-images.githubusercontent.com/90285625/144474745-0948fd44-c421-4a5f-8985-20db24c92b89.png">

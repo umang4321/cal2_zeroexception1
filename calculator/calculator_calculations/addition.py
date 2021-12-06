@@ -1,14 +1,14 @@
-""" Import Calculation Parent Class Constructor """
+"""Addition Class"""
 from calculator.calculator_calculations.calculation import Calculation
 
 # This is addition method which inherits the calculation class constructor
 
 
 class Addition(Calculation):
-    """ Performs addition between two values coming from Parent Class and gives the results """
+    """ Calculation addition class"""
 
     def getresult(self):
-        """ Using self to reference the data contained in the object instance """
+        """Get the addition results"""
         sum_of_values = 0.0
         for value in self.values:
             sum_of_values = sum_of_values + value

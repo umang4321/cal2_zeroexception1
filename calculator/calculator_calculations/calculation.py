@@ -1,8 +1,8 @@
-""" Calculation Abstract Class """
+"""Calculation Class"""
 
 
 class Calculation:
-    """ Defining Class Constructor in here """
+    """ calculation abstract base class"""
 
     # pylint: disable=too-few-public-methods
 

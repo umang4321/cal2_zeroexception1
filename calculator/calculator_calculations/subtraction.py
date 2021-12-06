@@ -1,4 +1,4 @@
-""" Import Calculation Parent Class Constructor """
+"""Subtraction Class"""
 
 from calculator.calculator_calculations.calculation import Calculation
 
@@ -6,10 +6,10 @@ from calculator.calculator_calculations.calculation import Calculation
 
 
 class Subtraction(Calculation):
-    """ Performs subtraction between two values coming from Parent Class and gives the results """
+    """Calculation Subtraction class"""
 
     def getresult(self):
-        """ Using self to reference the data contained in the object instance """
+        """Get subtraction results"""
         subtraction_of_values = self.values[0]
         for value in self.values[1:]:
             subtraction_of_values = subtraction_of_values - value

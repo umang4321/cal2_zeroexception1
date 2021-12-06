@@ -1,4 +1,4 @@
-""" Import Calculation Parent Class Constructor """
+"""Division Class"""
 
 from calculator.calculator_calculations.calculation import Calculation
 
@@ -6,10 +6,10 @@ from calculator.calculator_calculations.calculation import Calculation
 
 
 class Division(Calculation):
-    """ Performs division between two values coming from Parent Class and gives the results """
+    """ Calculation division class"""
 
     def getresult(self):
-        """ Using self to reference the data contained in the object instance """
+        """Get division results"""
         division_of_values = self.values[0]
         for value in self.values[1:]:
             division_of_values = division_of_values / value

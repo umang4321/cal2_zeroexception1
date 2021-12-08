@@ -52,3 +52,9 @@ ZeroDivisionError: float division by zero
 2021-12-08 00:48:34,704:calculator.main:Division : 100.000000 / 2.000000 = 50.000000
 2021-12-08 00:48:34,705:calculator.main:float division by zero
 ZeroDivisionError: float division by zero
+2021-12-08 00:51:43,154:calculator.main:Division : 20.000000 / 10.000000 = 2.000000
+2021-12-08 00:51:43,157:calculator.main:Division : 60.000000 / 20.000000 = 3.000000
+2021-12-08 00:51:43,159:calculator.main:Division : 6.000000 / 12.000000 = 0.500000
+2021-12-08 00:51:43,161:calculator.main:Division : 100.000000 / 2.000000 = 50.000000
+2021-12-08 00:51:43,163:calculator.main:float division by zero
+ZeroDivisionError: float division by zero

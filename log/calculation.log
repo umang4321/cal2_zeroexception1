@@ -1,0 +1,54 @@
+2021-12-08 00:35:59,370:calculator.main:Division : 70.000000 / 48.000000 = 1.458000
+2021-12-08 00:35:59,371:calculator.main:Division : 29.000000 / 61.000000 = 0.475000
+2021-12-08 00:35:59,372:calculator.main:Division : 84.000000 / 25.000000 = 3.360000
+2021-12-08 00:35:59,373:calculator.main:Division : 38.000000 / 53.000000 = 0.717000
+2021-12-08 00:35:59,374:calculator.main:Division : 28.000000 / 11.000000 = 2.545000
+2021-12-08 00:36:29,380:calculator.main:Division : 70.000000 / 48.000000 = 1.458000
+2021-12-08 00:36:29,383:calculator.main:Division : 29.000000 / 61.000000 = 0.475000
+2021-12-08 00:36:29,385:calculator.main:Division : 84.000000 / 25.000000 = 3.360000
+2021-12-08 00:36:29,386:calculator.main:Division : 38.000000 / 53.000000 = 0.717000
+2021-12-08 00:36:29,387:calculator.main:Division : 28.000000 / 11.000000 = 2.545000
+2021-12-08 00:37:35,923:calculator.main:Division : 70.000000 / 48.000000 = 1.458000
+2021-12-08 00:37:35,925:calculator.main:Division : 29.000000 / 61.000000 = 0.475000
+2021-12-08 00:37:35,926:calculator.main:Division : 84.000000 / 25.000000 = 3.360000
+2021-12-08 00:37:35,927:calculator.main:Division : 38.000000 / 53.000000 = 0.717000
+2021-12-08 00:37:35,928:calculator.main:Division : 28.000000 / 11.000000 = 2.545000
+2021-12-08 00:37:35,929:calculator.main:float division by zero
+ZeroDivisionError: float division by zero
+2021-12-08 00:38:10,406:calculator.main:Division : 70.000000 / 48.000000 = 1.458000
+2021-12-08 00:38:10,407:calculator.main:Division : 29.000000 / 61.000000 = 0.475000
+2021-12-08 00:38:10,408:calculator.main:Division : 84.000000 / 25.000000 = 3.360000
+2021-12-08 00:38:10,409:calculator.main:Division : 38.000000 / 53.000000 = 0.717000
+2021-12-08 00:38:10,411:calculator.main:Division : 28.000000 / 11.000000 = 2.545000
+2021-12-08 00:38:10,412:calculator.main:float division by zero
+ZeroDivisionError: float division by zero
+2021-12-08 00:41:47,936:calculator.main:Division : 20.000000 / 10.000000 = 2.000000
+2021-12-08 00:41:47,938:calculator.main:Division : 60.000000 / 20.000000 = 3.000000
+2021-12-08 00:41:47,939:calculator.main:Division : 6.000000 / 12.000000 = 0.500000
+2021-12-08 00:41:47,940:calculator.main:Division : 100.000000 / 2.000000 = 50.000000
+2021-12-08 00:41:47,941:calculator.main:float division by zero
+ZeroDivisionError: float division by zero
+2021-12-08 00:42:24,236:calculator.main:Division : 20.000000 / 10.000000 = 2.000000
+2021-12-08 00:42:24,237:calculator.main:Division : 60.000000 / 20.000000 = 3.000000
+2021-12-08 00:42:24,239:calculator.main:Division : 6.000000 / 12.000000 = 0.500000
+2021-12-08 00:42:24,240:calculator.main:Division : 100.000000 / 2.000000 = 50.000000
+2021-12-08 00:42:24,241:calculator.main:float division by zero
+ZeroDivisionError: float division by zero
+2021-12-08 00:42:56,604:calculator.main:Division : 20.000000 / 10.000000 = 2.000000
+2021-12-08 00:42:56,606:calculator.main:Division : 60.000000 / 20.000000 = 3.000000
+2021-12-08 00:42:56,607:calculator.main:Division : 6.000000 / 12.000000 = 0.500000
+2021-12-08 00:42:56,609:calculator.main:Division : 100.000000 / 2.000000 = 50.000000
+2021-12-08 00:42:56,610:calculator.main:float division by zero
+ZeroDivisionError: float division by zero
+2021-12-08 00:47:53,769:calculator.main:Division : 20.000000 / 10.000000 = 2.000000
+2021-12-08 00:47:53,770:calculator.main:Division : 60.000000 / 20.000000 = 3.000000
+2021-12-08 00:47:53,771:calculator.main:Division : 6.000000 / 12.000000 = 0.500000
+2021-12-08 00:47:53,772:calculator.main:Division : 100.000000 / 2.000000 = 50.000000
+2021-12-08 00:47:53,773:calculator.main:float division by zero
+ZeroDivisionError: float division by zero
+2021-12-08 00:48:34,701:calculator.main:Division : 20.000000 / 10.000000 = 2.000000
+2021-12-08 00:48:34,702:calculator.main:Division : 60.000000 / 20.000000 = 3.000000
+2021-12-08 00:48:34,703:calculator.main:Division : 6.000000 / 12.000000 = 0.500000
+2021-12-08 00:48:34,704:calculator.main:Division : 100.000000 / 2.000000 = 50.000000
+2021-12-08 00:48:34,705:calculator.main:float division by zero
+ZeroDivisionError: float division by zero

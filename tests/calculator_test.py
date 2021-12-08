@@ -1,7 +1,7 @@
 """Importing Calculator Class from calculator > main.py for Testing"""
 import pytest
 from calculator.main import Calculator
-from calculator.history_calculations.history_calculations import History
+from calculator.history_calc.history_calculations import History
 # pylint: disable=unused-argument,redefined-outer-name
 
 

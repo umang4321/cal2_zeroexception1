@@ -1,11 +1,29 @@
 """ This is the increment function"""
-from calculator.calculator_calculations.addition import Addition
-from calculator.calculator_calculations.subtraction import Subtraction
-from calculator.calculator_calculations.multiplication import Multiplication
-from calculator.calculator_calculations.division import Division
-from calculator.history_calculations.history_calculations import History
+import logging
+import sys
+
+from calculator.calculator_calc.addition import Addition
+from calculator.calculator_calc.subtraction import Subtraction
+from calculator.calculator_calc.multiplication import Multiplication
+from calculator.calculator_calc.division import Division
+from calculator.history_calc.history_calculations import History
 from csv_file.read_csv import CSVRead
 
+sys.tracebacklimit = 0
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)
+
+formatter = logging.Formatter('%(asctime)s:%(name)s:%(message)s')
+
+filecalc_handler = logging.FileHandler('log/calculation.log')
+filecalc_handler.setLevel(logging.DEBUG)
+filecalc_handler.setFormatter(formatter)
+
+streamcalc_handler = logging.StreamHandler()
+streamcalc_handler.setFormatter(formatter)
+
+logger.addHandler(filecalc_handler)
+logger.addHandler(streamcalc_handler)
 
 class Calculator:
     """ This is the Calculator class"""
@@ -55,6 +73,12 @@ class Calculator:
     @staticmethod
     def divide_nums(*args):
         """returns object of the division result of the numbers"""
-        division = Division(args).getresult()
-        History.add_calculation_to_history(division)
-        return History.get_last_calculation_added()
+        try:
+            division = Division(args).getresult()
+            History.add_calculation_to_history(division)
+        except ZeroDivisionError as err:
+            logger.exception(err)
+            return 0.0
+        else:
+            logger.debug('Division : %f / %f = %f', args[0], args[1], division)
+            return History.get_last_calculation_added()

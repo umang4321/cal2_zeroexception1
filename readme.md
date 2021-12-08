@@ -5,7 +5,7 @@ pip install -r requirements.txt
 
 To run tests, Lint, and Coverage report use this command:
 
-YouTube Link - https://www.youtube.com/watch?v=D-h68pykO3c
+YouTube Link - https://youtu.be/NGPd64M7oPE
 
 pytest  --pylint --cov
 
@@ -13,5 +13,6 @@ pytest  --pylint --cov
 .coveragerc is the config for coverage
 setup.py is a config file for pytest
 
-<img width="1393" alt="csv" src="https://user-images.githubusercontent.com/90285625/144792850-e67bc464-30f0-41e2-8291-0c38f4b17459.png">
+
+<img width="1376" alt="csv file" src="https://user-images.githubusercontent.com/90285625/145130054-e52c6210-152c-444a-8534-5ecbefa53529.png">
 

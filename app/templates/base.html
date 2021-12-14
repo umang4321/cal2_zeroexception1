@@ -17,7 +17,7 @@
 <body>
 <div id="primary_container">
     <nav class="navbar container-fluid navbar-expand-lg navbar-toggle">
-        <a class="navbar-brand" href="#">Flask</a>
+        <a class="navbar-brand" href="/">Flask</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -38,7 +38,7 @@
         {% with messages = get_flashed_messages() %}
         {% if messages %}
         {% for message in messages %}
-        <div class="alert alert-warning alert-dismissible" role="alert">
+        <div class="alert alert-danger alert-dismissible" role="alert">
             {{ message }}
 
             <a href="#" class="close" data-dismiss="alert" aria-label="close"><span

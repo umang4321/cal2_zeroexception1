@@ -1,4 +1,7 @@
 # Flash
+# Homepage
+<img width="1400" alt="homepage" src="https://user-images.githubusercontent.com/90285625/146059019-90447c97-a7b6-45ba-9e68-21cb09def487.png">
+
 
 # Entering both the values
 <img width="1410" alt="Screen Shot 2021-12-13 at 7 47 24 PM" src="https://user-images.githubusercontent.com/90285625/145914334-3fd54303-1a13-4697-91ca-2612e8d5e489.png">

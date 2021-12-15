@@ -5,7 +5,6 @@
 .navbar{
     margin : 0 !important;
     font-size:120%;
-    background-color: #959a9c;
 }
 
 .navbar-fixed-top{
@@ -124,7 +123,6 @@ html,body{
 #content, #founder-content, #arpa2inter-content, #origin-content, #aboutus-content, #growth-content, #article1-content, #article2-content, #article3-content, #article4-content{
     padding-top:50px;
     flex-grow: 1;
-    background-color: #9cdcfe;
 }
 
 .title-form {

@@ -1,7 +1,8 @@
-from app.controllers.controller import BaseController
+from app.controllers.controller import ControllerBase
 from flask import render_template
 
-class IndexController(BaseController):
+class IndexController(ControllerBase):
     @staticmethod
     def get():
         return render_template('index.html')
+

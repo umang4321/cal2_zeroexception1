@@ -10,26 +10,32 @@
 <strong>Result: </strong> {{ result }}
 <br/>
 <br/>
-
-<table id="data" class="table table-striped">
+<h2>Beautiful Tables</h2>
+<div class = "container">
+<table id="data" class="table table-striped bg-light">
     <thead>
       <tr>
+        <th>Sr No.</th>
         <th>Value1</th>
         <th>Value2</th>
         <th>Operation</th>
         <th>Result</th>
       </tr>
     </thead>
+    <!--2-->
     <tbody>
-    </tr>
+        {% set list1 = hist.split('\n') %}
+        {% for item in list1 %}
+        {% set subitem = item.split(',') %}
         <tr>
-          <td>{{ value1 }}</td>
-          <td>{{ value2 }}</td>
-          <td>{{ operation }}</td>
-          <td>{{ result }}</td>
+            <td>{{ list1.index(item)+1 }}</td>
+            <td>{{ subitem[0] }}</td>
+            <td>{{ subitem[1] }}</td>
+            <td>{{ subitem[2] }}</td>
+            <td>{{ subitem[3] }}</td>
         </tr>
-
-    </tbody>
+        {% endfor %}
+        </tbody>
   </table>
-
+</div>
 {% endblock %}

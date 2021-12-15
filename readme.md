@@ -1,12 +1,8 @@
 # Beautiful Tables
-
 # Home Page
-<img width="1400" alt="Screen Shot 2021-12-13 at 10 57 21 PM" src="https://user-images.githubusercontent.com/90285625/145930855-3a2f24c8-378c-4ea2-b23e-7c78438561f0.png">
-# Addition 
-<img width="1396" alt="Screen Shot 2021-12-13 at 10 57 45 PM" src="https://user-images.githubusercontent.com/90285625/145930891-1fc997fa-61e6-4956-88b6-86751817c30e.png">
-# Subtraction
-<img width="1398" alt="Screen Shot 2021-12-13 at 10 58 01 PM" src="https://user-images.githubusercontent.com/90285625/145930919-2db8f6b0-d00c-4011-bf9b-1c3b396abf95.png">
-# Multiplication
-<img width="1393" alt="Screen Shot 2021-12-13 at 10 58 21 PM" src="https://user-images.githubusercontent.com/90285625/145930995-df2cef3e-8a1e-4e62-a285-0b15da9d6df3.png">
-# Division
-<img width="1393" alt="Screen Shot 2021-12-13 at 10 58 46 PM" src="https://user-images.githubusercontent.com/90285625/145931008-b5ca8c98-1285-4755-b50d-ae6438c23181.png">
+<img width="1397" alt="home page 1" src="https://user-images.githubusercontent.com/90285625/146135678-98066c2a-0b8a-4916-94a7-c3a63cc41ef8.png">
+<img width="1398" alt="home page 2" src="https://user-images.githubusercontent.com/90285625/146137396-19142919-d9f7-4519-b249-8e7ad90bb9b6.png">
+# Beautiful table generated after first calculation
+<img width="1374" alt="first" src="https://user-images.githubusercontent.com/90285625/146163779-7727db94-e9c0-4134-ba5c-20b0f505f676.png">
+# Beautiful table generated after multiple calculation
+<img width="1375" alt="final" src="https://user-images.githubusercontent.com/90285625/146163750-37dc54ab-d0fa-462e-8b88-fbac0a7d509d.png">

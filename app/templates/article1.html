@@ -1,0 +1,175 @@
+{% extends "base.html" %}
+{% block title %}Index{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid" align="left">
+    <!-- Start of OOP -->
+    <h2><b>What is Object-Oriented Programming?</b></h2>
+    <p>Object-Oriented Programming (OOP) is a widely popular programming paradigm. This method of structuring a program uses objects that have properties and behaviors. Each programming language handles the principles of OOP a little differently, so it’s important to learn OOP for each language you are learning.</p>
+    <p>Object-Oriented Programming is a programming paradigm based on the creation of reusable “objects” that have their own properties and behavior that can be acted upon, manipulated, and bundled.
+        These objects package related data and behaviors into representations of real-life objects. OOP is a widely used paradigm across various popular programming languages like Python, C++, and Java.
+    </p>
+    <p>Many developers use OOP because it makes your code reusable and logical, and it makes inheritance easier to implement. It follows the DRY principle, which makes programs much more efficient.
+        In OOP, every object is defined with its own properties. For example, say our object is an Employee. These properties could be their name, age, and role. OOP makes it easy to model real-world things and the relationships between them. Many beginners prefer to use OOP languages because they organize data much like how the human brain organizes information.
+    </p>
+    <p>The four main principles of OOP are <b>encapsulation, inheritance, polymorphism and abstraction.</b></p>
+    <div class="text-center">
+        <img src="{{ url_for('static', filename='images/oop.png') }}" alt="OOP" width="850" height="300">
+        <p>Fig. 1</p>
+    </div>
+
+    <!-- End of OOP -->
+    <!-- Start of Encapsulation -->
+    <h2><b>Encapsulation</b></h2>
+    <p>Encapsulation is one of the fundamental concepts in object-oriented programming (OOP) that describes the idea of wrapping data and the methods that work on data within one unit. This puts restrictions on accessing variables and methods directly and can prevent the accidental modification of data. To prevent accidental change, an object’s variable can only be changed by an object’s method.
+    <br/></p>
+    <p>We've shown that private class data can only be manipulated via class functions, not objects, in the Fig. 1.1.</p>
+
+    <div class="text-center">
+        <img src="{{ url_for('static', filename='images/encapsulation.png') }}" alt="encapsulation" width="850" height="275">
+        <p>Fig. 1.1</p>
+    </div>
+    <h4><b>Real life example</b></h4>
+    <p>The common example of encapsulation is Capsule. In capsule all medicine are encapsulated in side capsule as shown in Fig. 1.2</p>
+    <div class="text-center">
+        <img src="{{ url_for('static', filename='images/en1.png') }}" alt="encapsulation" width="700" height="275">
+        <p>Fig. 1.2</p>
+    </div>
+    <p><b>Automatic Cola Vending Machine :</b>Suppose you go to an automatic cola vending machine as shown in Fig. 1.3 and request for a cola. The machine processes your request and gives the cola.</p>
+    <div class="text-center">
+        <img src="{{ url_for('static', filename='images/en2.png') }}" alt="encapsulation" width="300" height="350">
+        <p>Fig. 1.3</p>
+    </div>
+    <p>Here automatic cola vending machine is a class. It contains both data i.e. Cola can and operations i.e. service mechanism and they are wrapped/integrated under a single unit Cola Vending Machine. This is called Encapsulation.<br/>
+
+        <b>A Washing Machine and It's Power Button:</b> What is the function that power button does? Switches the machine on (obviously). But did u ever imagined the inside mechanism. Doesn't matter unless it's functioning well. That's encapsulation. The object is wrapped and inner details are hidden. Only thing is that object can be called and used. User friendly!
+        You can't access private date outside the class.
+    </p>
+    <h4><b>Benefits of Encapsulation in Python</b></h4>
+    <p>Encapsulation not only ensures better data flow but also protects the data from outside sources. The concept of encapsulation makes the code self-sufficient. It is very helpful in the implementation level, as it prioritizes the ‘how’ type questions, leaving behind the complexities. You should hide the data in the unit to make encapsulation easy and also to secure the data.</p>
+
+    <h4><b>What is the need for Encapsulation in Python</b></h4>
+    <p>The following reasons show why developers find the Encapsulation handy and why the Object-Oriented concept is outclassing many programming languages.</p>
+    <ul>
+        <li>Encapsulation helps in achieving the well-defined interaction in every application.</li>
+        <li>The Object-Oriented concept focuses on the reusability of code in Python. (DRY – Don’t Repeat Yourself).</li>
+        <li>The applications can be securely maintained.</li>
+        <li>It ensures the flexibility of the code through a proper code organization.</li>
+        <li>It promotes a smooth experience for the users without exposing any back-end complexities.</li>
+        <li>It improves the readability of the code. Any changes in one part of the code will not disturb another.</li>
+        <li>Encapsulation ensures data protection and avoids the access of data accidentally. The protected data can be accessed with the methods discussed above.</li>
+    </ul>
+    <p>Encapsulation in Python is, the data is hidden outside the object definition. It enables developers to develop user-friendly experience. This is also helpful in securing data from breaches, as the code is highly secured and cannot be accessed by outside sources.</p>
+    <!-- End of Encapsulation -->
+
+    <!-- Start of Inheritance -->
+    <h2><b>Inheritance</b></h2>
+    <p>The process of obtaining the data members and methods from one class to another class is known as inheritance. In other words, inheritance is a process by which a child class acquires all the properties and behaviors of the parent class.</p>
+    <p>The existing class is called parent class (a more general class) and the new class is called child class (a more specialized class). The child class inherits data and behavior from the parent class.</p>
+    <p>Fig. 2.1 shows the parent class which is Calculation and Fig. 2.2 shows the child class which is DivideNumber. The class DivideNumber can use all the functions of its parent class which is Calculation.</p>
+    <div class="text-center">
+        <img src="{{ url_for('static', filename='images/parent.png') }}" alt="Parent" width="700" height="250">
+        <p>Fig. 2.1</p>
+    </div>
+    <div class="text-center">
+        <img src="{{ url_for('static', filename='images/child.png') }}" alt="Child" width="700" height="250">
+        <p>Fig. 2.2</p>
+    </div>
+    <h4><b>Basic Terminologies of Inheritance</b></h4>
+    <ul>
+        <li>In the inheritance the class which is give data members and methods is known as base or super or parent class.</li>
+        <li>The class which is taking the data members and methods is known as sub or derived or child class.</li>
+        <li>The data members and methods of a class are known as features.</li>
+        <li>The concept of inheritance is also known as re-usability or extendable classes or sub classing or derivation.</li>
+    </ul>
+
+    <h4><b>Real Life example</b></h4>
+    <p>The real life example of inheritance is child and parents, all the properties of father are inherited by his son as shown in Fig. 2.3</p>
+    <div class="text-center">
+        <img src="{{ url_for('static', filename='images/in1.png') }}" alt="Act" width="650" height="250">
+        <p>Fig. 2.3</p>
+    </div>
+    <p>Inheritance represents the IS-A relationship, also known as a parent-child relationship.</p>
+
+    <h4><b>Benefits of inheritance</b></h4>
+    <p>If we develop any application using this concept than that application have following benefits,</p>
+    <ul>
+        <li>Application development time is less.</li>
+        <li>Application take less memory.</li>
+        <li>Application execution time is less.</li>
+        <li>Application performance is enhance (improved).</li>
+        <li>Redundancy (repetition) of the code is reduced or minimized so that we get consistence results and less storage cost.</li>
+    </ul>
+    <!-- End of Inheritance -->
+    <!-- Start of Poly -->
+    <h2><b>Polymorphism</b></h2>
+    <p>The word polymorphism means having many forms. In programming, polymorphism means the same function name (but different signatures) being used for different types.</p>
+    <p>Polymorphism in python is used for a common function name that can be used for different types. This concept is widely applied in object-oriented based python programming. Like other programming languages say Java, C+, polymorphism is also implemented in python for different purpose commonly Duck Typing, Operator overloading and Method overloading, and Method overriding.  This polymorphism process can be achieved in two main ways namely overloading and overriding.</p>
+    <div class="text-center">
+        <img src="{{ url_for('static', filename='images/padd.png') }}" alt="Poly" width="650" height="250">
+        <p>Fig. 3.1</p>
+    </div>
+    <div class="text-center">
+        <img src="{{ url_for('static', filename='images/psubtract.png') }}" alt="Poly" width="650" height="250">
+        <p>Fig. 3.2</p>
+    </div>
+    <div class="text-center">
+        <img src="{{ url_for('static', filename='images/pmultipy.png') }}" alt="Poly" width="650" height="250">
+        <p>Fig. 3.3</p>
+    </div>
+    <div class="text-center">
+        <img src="{{ url_for('static', filename='images/pdivided.png') }}" alt="Poly" width="650" height="250">
+        <p>Fig. 3.4</p>
+    </div>
+    <p>As shown in above Fig. 3.1, 3.2, 3.3, 3.4 the function getresult() is used to get the result of addition, subtraction, multiplication and division in same program. This indicates the use of polymorphism in python</p>
+    <h4><b>Why is polymorphism needed?</b></h4>
+    <p>When Talking about object-oriented programming in python the term polymorphism will come for sure. In object-oriented programming, objects need to take different forms. In software development, it’s quite important to have this feature. Through polymorphism, a single action can be performed in various ways. This concept is widely used when we talk about loose coupling, dependency injection and interface etc. If you wish to learn more about python, take up the great learning academy’sfree course on python and power ahead your career.</p>
+    <h4><b>Duck Typing</b></h4>
+    <p>Duck typing is a concept in polymorphism. The term duck typing is derived from the quote which says something that walks like a duck quacks like a duck and swims like a duck is called a duck no matter what object it is. In simple words it means something that matches its behaviour to anything then it will consider a thing of that category to which it matches.</p>
+    <h4><b>Polymorphism with Inheritance:</b></h4>
+    <p>In Python, Polymorphism lets us define methods in the child class that have the same name as the methods in the parent class. In inheritance, the child class inherits the methods from the parent class. However, it is possible to modify a method in a child class that it has inherited from the parent class. This is particularly useful in cases where the method inherited from the parent class doesn’t quite fit the child class. In such cases, we re-implement the method in the child class. This process of re-implementing a method in the child class is known as Method Overriding</p>
+    <h4><b>Real life example</b></h4>
+    <p>Consider your Mobile phone. You can save your Contacts in it. Now suppose you want to save 2 numbers for one person. You can do it by saving the second number under the same name.</p>
+    <p>Similarly, in an object-oriented language like Python, suppose you want to save two numbers for one person. You must have a function, which will take the two numbers and the person name as arguments to some function void createContact(String name, int number1, int number2).</p>
+    <div class="text-center">
+        <img src="{{ url_for('static', filename='images/poly2.jpg') }}" alt="Poly" width="650" height="350">
+        <p>Fig. 3.5</p>
+    </div>
+    <p>Now it’s not necessary that every person will have 2 numbers. Many other contacts might have only a single number. In such a situation, instead of creating another method with different name to save one number for a contact, what you can do is that you can have the same name of the method i.e. createContact() but instead of taking 2 numbers as parameters, you can take only 1 number as parameter in it i.e. void createContact(String name, int number1).</p>
+    <p>This is Polymorphism. There is only one method named createContact(), but it has two definitions. Now which definition is to be executed depends upon the number of parameters being passed. If 1 parameter is passed, then only a single number is saved under the contact and if 2 numbers are passed to the same method name, then two numbers will be saved under the contact.</p>
+    <!-- End of Poly -->
+    <!-- Start of Abstraction -->
+    <h2><b>Abstraction</b></h2>
+    <p>In Python, an abstraction is used to hide the irrelevant data/class in order to reduce the complexity. It also enhances the application efficiency.</p>
+    <p>Abstraction is used to hide the internal functionality of the function from the users. The users only interact with the basic implementation of the function, but inner working is hidden. User is familiar with that "what function does" but they don't know "how it does."</p>
+    <p>Data Abstraction may also be defined as the process of identifying only the required characteristics of an object ignoring the irrelevant details. The properties and behaviours of an object differentiate it from other objects of similar type and also help in classifying/grouping the objects.</p>
+    <p>In the Fig 4.1, the function add_number() is created but the functionality is created in Fig 4.2 in AddNumber class which shows the Abstraction.</p>
+    <div class="text-center">
+        <img src="{{ url_for('static', filename='images/abstract_code.png') }}" alt="Poly" width="650" height="250">
+        <p>Fig. 4.1</p>
+        <img src="{{ url_for('static', filename='images/abstract2.png') }}" alt="Poly" width="650" height="250">
+        <p>Fig. 4.2</p>
+    </div>
+    <h4><b>Real Life example</b></h4>
+    <div class="text-center">
+        <img src="{{ url_for('static', filename='images/ab1.png') }}" alt="Poly" width="650" height="350">
+        <p>Fig. 4.3</p>
+    </div>
+    <p>Suppose you are operating a mobile phone. You know that the important feature of a phone is the memory card, SIM, battery life, design and build, and processor power. But, while operating the phone you do not get into the operational details of the phone such as how the CPU of the phone allocates memory for the various media on your phone or other intricate architectural details of the phone. All these details aren’t visible to cell-phone users from a non-technical background as shown in Fig.4.3.</p>
+    <h4><b>Benefits of Abstraction</b></h4>
+    <ol>
+        <li>It reduces the complexity of viewing the things.</li>
+        <li>Avoids code duplication and increases reusability.</li>
+        <li>Helps to increase the security of an application or program as only important details are provided to the user.</li>
+    </ol>
+    <!-- End of Abstraction -->
+
+
+
+
+
+
+</div>
+
+{% endblock %}

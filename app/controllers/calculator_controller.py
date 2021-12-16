@@ -20,7 +20,7 @@ class CalculatorController(ControllerBase):
         elif value2 == '':
             flash('Please enter valid input for Value 2 field')
         elif value2 == '0' and operation=="division" :
-            flash('Value cannot be zero')
+            flash('Zero Exception Error - Denominator cannot be zero for division')
         else:
             flash('Calculation is done successfully !!!!')
 

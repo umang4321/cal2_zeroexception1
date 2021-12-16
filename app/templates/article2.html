@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% block title %}Index{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid" align="left">
+<h2>Why Testing is Important?</h2>
+<p>A test is a procedure that exercises a behavior to determine if the behavior functions correctly.<br/>
+    Testing provides an empirical feedback loop for development. That’s how testing keeps us safe. With tests, we know when things break. Without tests, coding can be dangerous. We don’t want to deploy big ol’ bugs!<br/>
+    Goal of python unit testing is to detect as many bugs and inconsistencies in the infancy of the application development as possible. This is achieved by designing and scripting accurate and quality unit tests that can also serve as detailed documentation for the development process. This ensures that bugs and other problems we catch in the first stages of the development, can be fixed by the development team.
+    So, if we intend to spend time writing tests, how can we write good tests? There’s a simple but powerful pattern I like to follow: Arrange-Act-Assert.
+</p>
+    <h2>What is AAA testing?</h2>
+    <p>Arrange/Act/Assert (AAA) is a pattern for arranging and formatting code in Unit Test methods.</p>
+    <p>It is a best practice to author your tests in more natural and convenient way. The idea is to develop a unit test by following these 3 simple steps:<p>
+    <p><b>Arrange:</b> This is the first step of a unit test application. Here we will arrange the test, in other words we will do the necessary setup of the test. For example, to perform the test we need to create an object of the targeted class, if necessary, then we need to create mock objects and other variable initialization, something like this.
+<br/>Fig.1 illustrates the Arrange step of AAA testing.
+</p>
+
+    <div class="text-center">
+        <img src="{{ url_for('static', filename='images/a2arrange.png') }}" alt="OOP" width="850" height="200">
+        <p>Fig 1</p>
+    </div>
+
+
+    <p><b>Act:</b> This is the middle step of a unit step application. In this step we will execute the test. In other words, we will do the actual unit testing and the result will be obtained from the test application. Basically, we will call the targeted function in this step using the object that we created in the previous step.
+        <br/>Fig.2 illustrates the Act step of AAA testing.
+    </p>
+
+    <div class="text-center">
+        <img src="{{ url_for('static', filename='images/a2act.png') }}" alt="Act" width="850" height="150">
+        <p>Fig 2</p>
+    </div>
+
+    <p><b>Assert:</b> This is the last step of a unit test application. In this step we will check and verify the returned result with expected results.
+    </p>
+
+    <div class="text-center">
+        <img src="{{ url_for('static', filename='images/a2assert.png') }}" alt="Act" width="850" height="300">
+        <p>Fig 3</p>
+        <img src="{{ url_for('static', filename='images/a2assert2.png') }}" alt="Act" width="850" height="300">
+        <p>Fig 4</p>
+    </div>
+    <h2>Use of External Data for Testing:</h2>
+    <p>Unit tests for Python classes and functions are executed using the Python unit test library. Because it is a Python built-in library, you do not need to install any third-party libraries to use it.</p>
+    <p>Pandas is a flexible and powerful Python library for working with labeled and time series data. You can successfully work with files using functions like Pandas read_csv(). They can be used to store data and labels from Pandas objects to a file and then load them as Pandas Series or DataFrame instances later.</p>
+    <p>This output illustrates that all test cases design are covered in the called function, if any of the test cases or method is not used, then it will result in reducing coverage for the same.</p>
+    <div class="text-center">
+        <img src="{{ url_for('static', filename='images/csv.png') }}" alt="Act" width="850" height="300">
+        <p>Fig 5</p>
+    </div>
+    <p>Steps for running external data csv for testing:</p>
+    <ul>
+        <li>Installing Pandas -- pip install pandas</li>
+        <li>Preparing the csv data -- Creating the csv file for loading in the python project</li>
+        <li>Using the Pandas read_csv() and .to_csv() Function -- A comma-separated values (CSV) file is a plaintext file with a .csv extension that holds tabular data. This is a widely used file format for storing big amounts of data. A single table row is represented by each row of the CSV file. The values in the same row are separated by commas by default, but you can change it to a semicolon, tab, space, or any other character.</li>
+        <li>Reading the csv files -- Pandas functions for reading the contents of files are named using the pattern .read_[file-type](), where [file-type] indicates the type of the file to read.</li>
+        <li>Writing the csv files -- Once you have those packages installed, you can save your DataFrame in an Excel file with .to_excel().</li>
+        <li>In this way, we can use the pandas library from loading the data and labels from Pandas DataFrame objects to different kinds of files. The function read_csv() and .to_csv() allows us to load our data in the single function or method call.</li>
+    </ul>
+
+        <h2>Conclusion</h2>
+    <p>In this tutorial, we showed how the AAA pattern may help us arrange our tests in such a way that we can effectively distinguish between each step, from test setup through results verification. Because anyone can look at the test code and discover what behavior has been verified and why it has worked, including this technique into our process provides improved readability and easier maintenance.</p>
+</div>
+
+
+{% endblock %}

@@ -8,8 +8,7 @@ Video Link - https://youtu.be/mOQMLS94PUY
 <img width="1433" alt="1 3" src="https://user-images.githubusercontent.com/90285625/146295519-74bc73e8-49d1-4636-9f26-e8048d0b91ba.png">
 <img width="1434" alt="1 4" src="https://user-images.githubusercontent.com/90285625/146295523-fa8a1a9c-4df4-4ee5-8685-3677a776c952.png">
 <img width="1432" alt="1 5" src="https://user-images.githubusercontent.com/90285625/146295528-2a7edc4d-0292-42d5-ad9d-2d6b975a893e.png">
-# 2. Input and selected operation is stored in csv file
-<img width="577" alt="2" src="https://user-images.githubusercontent.com/90285625/146295637-191df6ca-7c4a-4ddd-85ce-fe822f44f482.png">
+# 2. CSV Handling: CSV File is generated in output.csv in same repository.
 # 3. Result of all the operations performed in calculator in a table.
 <img width="1431" alt="3" src="https://user-images.githubusercontent.com/90285625/146295735-805db1fd-a33c-4d4b-9544-62e41cba99b0.png">
 # 4. Evolution, Inventors, OOP Principles and AAA Testing are taken from the previous project.
